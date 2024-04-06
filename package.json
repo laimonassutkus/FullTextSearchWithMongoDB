@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.12.5",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.5.0"
+  }
+}
