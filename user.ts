@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker"
-import skills from "./skills"
+import SKILLS from "./skills"
 import { getRandomItems } from "./util"
 
 class User {
@@ -25,7 +25,7 @@ class User {
             faker.person.firstName(),
             faker.person.lastName(),
             faker.person.jobTitle(),
-            getRandomItems(skills)
+            getRandomItems(SKILLS)
         )
     }
 }

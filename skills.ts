@@ -1,4 +1,4 @@
-const skills: string[] = [
+const SKILLS: string[] = [
     'Leadership',
     'Excel spreadsheets',
     'Software development',
@@ -12,4 +12,4 @@ const skills: string[] = [
     'Technology management'
 ]
 
-export default skills
+export default SKILLS
